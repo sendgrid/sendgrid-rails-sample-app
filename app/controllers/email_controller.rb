@@ -1,9 +1,11 @@
 class EmailController < ApplicationController
 
+  # sample form
   def index
    
   end
 
+  # send email
   def sending
     to = params[:toAddress]
     subject = params[:subject]
