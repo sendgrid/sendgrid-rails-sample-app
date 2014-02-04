@@ -1,0 +1,47 @@
+// Place all the styles related to the email controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+textarea {
+  height: 200px;
+  width: 510px !important;
+}
+
+.logo{
+  width: 150px;
+}
+
+.header {
+  width: 100%;
+  background-color: #262729;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.header-top {
+  width: 520px;
+  margin: 0 auto !important;
+  text-align: left;
+}
+
+.form {
+  margin: 0 auto !important;
+  padding-top: 20px;
+  width: 520px;
+}
+
+.control-label {
+  width: 60px !important;
+  text-align: left !important;
+}
+
+.controls {
+  margin-left: 70px !important;
+}
+
+.form input {
+  width: 440px;
+}

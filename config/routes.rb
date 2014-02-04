@@ -46,11 +46,16 @@ SendgridRailsSampleApp::Application.routes.draw do
   #   end
   #   resources :posts, concerns: :toggleable
   #   resources :photos, concerns: :toggleable
-
+ 
   # Example resource route within a namespace:
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # root path
+  root :to => 'email#index'
+  # root to submit form
+  post "email/sending" => "email#sending", :as => 'email_sending'
 end
